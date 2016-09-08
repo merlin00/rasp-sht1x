@@ -1,16 +1,19 @@
 {
-  "name": "sht1x",
-  "version": "1.0.0",
-  "description": "",
-  "main": "sht1x.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "async": "^2.0.1",
-    "moment": "^2.14.1",
-    "rpio": "^0.9.12"
-  }
+    "name": "sht1x",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sht1x.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^2.0.1",
+        "moment": "^2.14.1",
+        "rpio": "^0.9.12"
+    },
+    "jshintConfig": {
+        "esversion": 6
+    }
 }
